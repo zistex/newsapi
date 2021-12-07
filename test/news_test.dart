@@ -9,10 +9,9 @@ import 'package:news/controllers/news_controller.dart';
 import 'package:news/models/news_model.dart';
 import 'package:http/http.dart' as http;
 
-class MockNews extends Mock implements NewsController {}
 
 void main() {
-  final MockNews mockNews = MockNews();
+ 
 
   setUp(() {});
   tearDown(() {});
